@@ -3,7 +3,7 @@
 
 
 ### Objective
-Lets take our backend and middleware knowledge and create some real world applications. You will be building up a mock version of the API that you used for your P2 in Express. As you know _Not All API's Are Not Created Equal_ , Show us how you can better the API.
+Lets take our backend and middleware knowledge and create some real world applications. You will be building up a _MOCK VERSION_ of the API that you used for P2 in Express. As you know _**Not All API's Are Not Created Equal**_, Show us how you can make it better.
 
 ___
 ### :pencil2:Requirements
