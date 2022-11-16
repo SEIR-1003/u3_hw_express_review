@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
     res.send('home page');
   })
 
-  app.get('/carddata', cardController.getCards)
-  app.get('/carddata2', cardController2.getCards2)
+  app.get('/carddetail', cardController.getCards)
+  app.get('/set', cardController2.getCards2)
 
 
 

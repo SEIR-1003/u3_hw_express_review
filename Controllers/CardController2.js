@@ -1,7 +1,6 @@
 const getCards2=(req,res)=>{
     res.send([
-        {cardName:'Man Eater Bug', set: 'dark beginning 1', img: 'placeholder link', price: .48, cardSetNumber: 'db109', imgSmall:'placeholder2'}, {cardName:'Blue Eyes White Dragon', set: '2016 Megatin', img: 'placeholder link', price: .67, cardSetNumber: 'MT09', imgSmall:'placeholder2'},
-        {cardName:'Blood Mefist', set: 'Yu-Gi-Oh! Championship Series 2011 Prize Card', img: 'placeholder link', price: 999.99, cardSetNumber: 'YCSW-EN004', imgSmall:'placeholder2'}
+        {cardSetName:'Dark Beginning 1', setPrice: '5.00', img: 'placeholder link', cardsInSet: ['Man-eater Bug','Magician of Faith','Witch of the Black Forest'], cardSetID: 'DB1', imgSmall:'placeholder2 link'}, {cardSetName:'Dark Beginning 2', setPrice: '5.00', img: 'placeholder link', cardsInSet: ['Obnoxious Celtic Guardian','Sangan','Dark Magician '], cardSetID: 'DB2', imgSmall:'placeholder2 link'}, {cardSetName:'Legend of the Blue Eyes White Dragon', setPrice: '5.00', img: 'placeholder link', cardsInSet: ['Man-eater Bug','Exodia the Forbidden One','Spark'], cardSetID: 'LOB', imgSmall:'placeholder2'}, 
     ]
        )
 }
