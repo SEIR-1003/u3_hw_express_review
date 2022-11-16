@@ -14,7 +14,7 @@ app.get('/amiibos', (req, res) => {
 }) 
 
 app.get('/amiibos/:id', (req, res) => {
-    // this helped me filter the data it makes no sense however and at the end tried making it equal to req.params.id and it worked so :-b 
+    // this helped me filter the data it makes no sense however and at the end i tried making it equal to req.params.id and it worked so :-b 
     //link: https://www.folkstalk.com/2022/07/how-to-filter-array-objesct-in-express-node-js-with-code-examples-3.html
     const filteredData = amiibos.filter(amiibo => (amiibo.id == req.params.id))
     res.send(filteredData)
