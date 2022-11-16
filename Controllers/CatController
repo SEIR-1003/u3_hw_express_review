@@ -1,0 +1,35 @@
+const getCats = (req, res) => {
+  res.send([
+    {
+      name: "Mr Cat",
+      color: "Orange",
+      info: {
+        height: 23,
+        weight: 8,
+        age: 5,
+      },
+    },
+    {
+      name: "Mrs Cat",
+      color: "Calico",
+      info: {
+        height: 25,
+        weight: 10,
+        age: 10,
+      },
+    },
+    {
+      name: "Third Cat",
+      color: "Black",
+      info: {
+        height: 24,
+        weight: 12,
+        age: 16,
+      },
+    },
+  ]);
+};
+
+module.exports = {
+  getCats,
+};
