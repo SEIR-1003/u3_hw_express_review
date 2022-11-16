@@ -97,6 +97,10 @@ const getAge = (request, response) => {
     ages=[];
 }
 
+const getWhatever = (response, request) => {
+    data.map((datum))
+}
+
 module.exports = {
     getPets,
     getAge,
