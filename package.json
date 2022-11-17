@@ -1,0 +1,30 @@
+{
+  "name": "u3_hw_express_review",
+  "version": "1.0.0",
+  "description": "![Imgur](https://i.imgur.com/vfDXqLY.png?1)<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anasterisk/u3_hw_express_review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anasterisk/u3_hw_express_review/issues"
+  },
+  "homepage": "https://github.com/Anasterisk/u3_hw_express_review#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
