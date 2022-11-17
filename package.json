@@ -1,0 +1,27 @@
+{
+  "name": "u3_hw_express_review",
+  "version": "1.0.0",
+  "description": "![Imgur](https://i.imgur.com/vfDXqLY.png?1)<br>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbillaba/u3_hw_express_review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbillaba/u3_hw_express_review/issues"
+  },
+  "homepage": "https://github.com/Jbillaba/u3_hw_express_review#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
