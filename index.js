@@ -22,7 +22,7 @@ app.get("/ping", (req, res) => {
   res.json("pong")
 })
 
-app.get("/Game", artist.getArtist)
-app.get("/Character", album.getAlbum)
+app.get("/Game", artist.getGame)
+app.get("/Character", album.getCharacter)
 
 app.listen(PORT, () => console.log(`Mock Game API is running on ${PORT}!`))
